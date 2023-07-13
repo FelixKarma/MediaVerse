@@ -1,0 +1,17 @@
+body{
+ background-color: black;
+ background-image: url(/serie/image/docteur\ centipede.png);
+ background-size: cover;
+ 
+}
+
+#doctor{
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ margin-top: 6%;
+ color: red;
+ font-style: oblique;
+ font-weight: bold;
+ margin-left: 45%;
+}

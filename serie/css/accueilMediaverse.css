@@ -1,0 +1,237 @@
+header{
+ color: white;
+}
+.header1{
+ display: flex;
+ justify-content: space-between;
+}
+.header2{
+ display: flex;
+ justify-content: space-around;
+}
+body{
+ background-image: url(https://cdn.discordapp.com/attachments/1118151011962470470/1122787823683113032/fond_background_fil_rouge.jpg);
+ background-attachment: fixed;
+ margin: 0px;
+}
+
+.btn{
+ color: white !important;
+}
+
+.btn:hover{
+ background: linear-gradient(rgb(0, 4, 255),rgb(255, 0, 0));
+}
+
+.aa{
+ margin-top: 8px;
+}
+
+.ab{
+ margin-top: 25px;
+}
+
+h4{
+ text-transform: uppercase;
+ letter-spacing: 8px;
+ font-size: 2rem !important;
+ text-shadow: 0px 15px 15px #000000de;
+ color: white;
+ font-family: 'Rubik Dirt', cursive;
+ font-style: italic;
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 0, 204),
+      0 0 82px rgb(255, 0, 217),
+      0 0 92px rgb(255, 0, 225),
+      0 0 102px rgb(230, 0, 255),
+      0 0 151px rgb(255, 0, 200);
+}
+
+h3{
+ position: absolute;
+ top: 39% !important;
+ left: 15px;
+ font-family: 'Rubik Dirt', cursive;
+ font-style: italic;
+  color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Red Hat Display', sans-serif;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  /* user-select: none; Standard syntax */
+}
+.wrapper {
+  width: 100vw;
+  height: 60vh;
+  /* background: #1B1D22; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.box-inner, .box2-inner, .box1-inner {
+  width: 150px;
+  height: 200px;
+  background: #000000;
+  /* border: 5px solid #f000b056; */
+  border-radius: 12px;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FBFCFC;
+  cursor: pointer;
+/*   box-shadow: rgba(102, 232, 76, 0.25) 0px 50px 100px -20px, rgba(102, 232, 76, 0.3) 0px 30px 60px -30px; */
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.prev, .next,.prev2, .next2,.prev1, .next1 {
+  width: 160px;
+  height: 48px;
+/*   background: #B2C5B2; */
+  border: 2px solid #cbcbcb;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FBFCFC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.prev:hover,
+.next:hover,
+.prev2:hover,
+.next2:hover, 
+.prev1:hover,
+.next1:hover {
+  border: 2px solid #4ce8db;
+  background: linear-gradient(rgb(0, 4, 255),rgb(255, 0, 0));
+}
+
+.autoplay-container {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: 1px solid #66E84C;
+  border-radius: 4px;
+  color: #FBFCFC;
+  padding: 4px 0px;
+  overflow: hidden;
+  background-color: #1B1D22;
+  cursor: pointer;
+  display: none;
+}
+
+.autoplay-container > span {
+  padding: 4px 8px;
+}
+
+.autoplay-status {
+  background-color: #66E84C;
+  color: #1B1D22;
+}
+
+.wrapper2{
+ width: 100vw;
+ height: 50vh;
+ /* background: #1B1D22; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.wrapper1{
+ width: 100vw;
+ height: 50vh;
+ /* background: #1B1D22; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.New{
+ position: absolute;
+ top: 87% !important;
+ left: 15px;
+ font-family: 'Rubik Dirt', cursive;
+ font-style: italic;
+  color: #fff;
+}
+
+.incontournable {
+ position: absolute;
+ top: 137% !important;
+ left: 15px;
+ font-family: 'Rubik Dirt', cursive;
+ font-style: italic;
+  color: #fff;
+}
+
+footer{
+
+  background: linear-gradient(rgb(37, 1, 120),rgb(161, 3, 3));
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+  .prout{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+  
+  .vomito{
+      text-align: center;
+  }
+
+  h2{
+    font-family: 'Rubik Dirt', cursive;
+    font-style: italic;
+  }
+
+  .pipi{
+    font-family: 'Rubik Dirt', cursive;
+    font-style: italic;
+    font-size:medium;
+  }
+
+  .caca{
+    font-family: 'Rubik Dirt', cursive;
+    font-style: italic;
+    font-size:medium;
+  }

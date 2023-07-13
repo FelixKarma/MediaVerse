@@ -1,0 +1,23 @@
+.logo{
+ display: flex;
+ justify-content: space-between;
+}
+.boby{
+ background-image: url(https://cdn.discordapp.com/attachments/1118151011962470470/1122787823683113032/fond_background_fil_rouge.jpg);
+ font-family: 'Roboto', sans-serif;
+}
+.bouton {
+ display: flex;
+ justify-content: center;
+ 
+}
+.main{
+ display: flex;
+ justify-content: center;
+ color: rgb(255, 255, 255);
+}
+
+#buttonidenti{
+ border-radius: 30px; 
+ border: 1px solid #000;
+}

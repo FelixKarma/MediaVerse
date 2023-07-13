@@ -1,0 +1,247 @@
+
+
+body{
+ background-image: url(../image/double\ back\ ground\ walking.jpg);
+ background-size: cover;
+box-sizing: border-box;
+margin: 0;
+}
+
+h4{
+ margin-top: 0;
+ text-align: center;
+ color: #a9a9a9;
+}
+
+a{
+ text-decoration: none;
+}
+
+#Walkingd{
+ position:fixed;
+ left: 40px;
+ right: 0;
+ bottom: 100px;
+}
+
+section {
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+section .content{
+ position: absolute;
+ left: 1px ;
+ bottom: 350px;
+}
+
+section .content .détails span{
+ position: relative;
+ top: -35px;
+ left: 200px;
+ color: ghostwhite;
+ margin: 12px;
+ font-weight: 400;
+ font-size: 17px;
+}
+
+.détails span:last-child{
+ border: 1px solid rgb(182, 181, 181);
+ padding: 4px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 2px;
+ border-radius: 2px;
+ font-size: 15px;
+}
+
+.button span{
+ position: relative;
+ top: 10px;
+ left: 108px;
+ color: ghostwhite;
+ margin: 10px;
+ font-weight: 500;
+}
+
+.button .btn1{
+ background: rgb(199, 0, 0);
+ padding: 14px 26px;
+ border-radius: 2px;
+ transition: 0,5s;
+}
+.button .btn1:hover{
+ opacity: 0.8;
+ cursor: pointer;
+}
+
+.button .btn2{
+ background: #ffffff36;
+ padding: 14px 26px;
+ border-radius: 2px;
+ transition: 0,5s;
+}
+.button .btn2:hover{
+ background: #fff;
+ color: red;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+.button .btn3{
+ background: #ffffff36;
+ padding: 14px ;
+ border-radius: 2px;
+ transition: 0,5s;
+}
+.button .btn3:hover{
+ background: #fff;
+ color: red;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+section::before{
+ content: '';
+ position: absolute;
+ bottom: 5;
+ left: 0;
+ width: 100%;
+ height: 650px;
+ background: linear-gradient(to top, #0c181c, transparent);
+ z-index: -1;
+ overflow: hidden;
+}
+
+
+.sec{
+ position: relative;
+ top: 0;
+ height: 700px;
+ padding-left: 110px;
+ background-color: #02161c;
+}
+
+.sec span {
+ position: relative;
+ margin-bottom: 10px;
+ color: #fff;
+ margin: 7px;
+}
+
+.sec .title{
+ font-size: 20px;
+ font-weight: 600;
+}
+
+.sec .btn4{
+ font-size: 15px;
+ text-decoration: underline;
+}
+.info{
+ position: absolute;
+ top: -160px;
+}
+
+.col{
+ padding: 5px;
+ transition: transform .2s;
+ margin: 0 auto;
+}
+
+.col:hover{
+ transform: scale(1.1);
+}
+
+.sec .row{
+ position: absolute;
+ top: -100px;
+ height: 200px;
+ width: 82%;
+}
+
+.sec .row .col{
+ width: 130px;
+ height: 100px;
+ float: left;
+justify-content: center;
+align-items: center;
+margin-left: 70px;
+}
+
+.sec .row .col:first-child{
+ margin: 0px;
+ margin-left: 50px;
+}
+
+.sec .row .col img{
+ transition: 0,5s;
+}
+
+.sec .row .col img:hover{
+ cursor: pointer;
+}
+
+.sec .row2{
+ height: 200px;
+ width: 82%;
+ top: 100px;
+}
+
+.sec .row2 .col1{
+width: 810px;
+float: left;
+margin-right: 70px;
+}
+
+.sec .row2 .col2{
+ overflow: hidden;
+}
+
+.sec .row2 .col p{
+ color: #a9a9a9;
+ line-height: 25px;
+}
+ .sec .row2 .col h2{
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 25px;
+  margin-top: 100px;
+ }
+
+ .sec .row2 .col2{
+  text-decoration: underline;
+  text-decoration:underline cornsilk;
+ font-size: 20px;
+ }
+ .sec .row2 .col p{
+  font-size: 14px
+ }
+
+ .sec .row3{
+
+  height: 200px;
+  width: 82%;
+ }
+
+ .sec .row3 h2{
+ color: #fff;
+ font-size: 20px;
+ margin-top: 100px;
+ }
+
+ .row3 .col{
+  align-items: center;
+  margin-right: 47px;
+ }
+
+.flex{
+ display: flex;
+ justify-content: space-evenly;
+ color: #a9a9a9;
+}

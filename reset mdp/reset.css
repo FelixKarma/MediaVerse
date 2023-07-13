@@ -1,0 +1,21 @@
+.logo{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.boby{
+ background-image: url(https://cdn.discordapp.com/attachments/1118151011962470470/1122787823683113032/fond_background_fil_rouge.jpg);
+ color: white;
+ font-family: 'Roboto', sans-serif;
+}
+.main{
+ display: flex;
+ flex-flow: column wrap;
+ align-content: center;
+ justify-content: center;
+}
+
+#resetmail{
+ border-radius: 30px; 
+ border: 1px solid #000;
+}

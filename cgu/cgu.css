@@ -1,0 +1,34 @@
+header{
+ display: flex;
+ justify-content: space-between;
+}
+body{
+ background-image: url(../cgu/image/fond\ background\ fil\ rouge.jpg);
+ font-family: 'Roboto', sans-serif;
+ color: white;
+ margin: 0px;
+}
+.cgu{
+ display: flex;
+ justify-content: center;
+ border-bottom: 4px solid black;
+}
+
+.accordion-button:hover{
+ background: linear-gradient(rgb(0, 4, 255),rgb(255, 0, 0));
+}
+
+.accordion-button{
+ background-color: black;
+ color: white;
+}
+
+.accordion-collapse{
+ background-color: black;
+ color: white;
+}
+
+.accordion-button:focus{
+ background-color: black;
+ color: white;
+}

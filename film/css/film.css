@@ -1,0 +1,243 @@
+body {
+ background-image: url(https://static.vecteezy.com/ti/photos-gratuite/p1/6504705-resume-fond-degrade-bleu-violet-rouge-vous-pouvez-utiliser-ce-fond-pour-votre-contenu-comme-comme-video-streaming-promotion-jeu-publicite-presentation-etc-photo.jpg);
+ background-attachment: fixed;
+ margin: 0%;
+}
+
+h1 {
+ text-transform: uppercase;
+ letter-spacing: 8px;
+ font-size: 2.5rem !important;
+ text-shadow: 0px 15px 15px #000000de;
+ color: white;
+ font-family: 'Rubik Dirt', cursive;
+ font-weight: 500;
+ font-style: italic;
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 0, 204),
+      0 0 82px rgb(255, 0, 217),
+      0 0 92px rgb(255, 0, 225),
+      0 0 102px rgb(230, 0, 255),
+      0 0 151px rgb(255, 0, 200);
+}
+
+
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.thehuman {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.grimsby {
+ margin-right: 50px;
+ margin-left: 20px;
+ cursor: pointer;
+}
+
+.poultry {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.henry {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.manofsteel {
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+.tombeau {
+ margin-left: 20px;
+ margin-top: 100px;
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.batman {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.americanhistoryx {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.dancing {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.odisse {
+ margin-left: 20px;
+ margin-top: 100px;
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.avenger {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.inception {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.indiana {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.insidious {
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+.jonwick {
+ margin-left: 20px;
+ margin-top: 100px;
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.mission {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.promesse {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.smile {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.spider {
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+
+.uncharted {
+ margin-left: 20px;
+ margin-top: 100px;
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.bullet {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.donjon {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.lookup {
+ margin-right: 50px;
+ cursor: pointer;
+}
+
+.mario {
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+
+
+main ul {
+ display: flex;
+ justify-content: center;
+ justify-content: space-evenly;
+}
+
+main ul li {
+ list-style: none;
+ margin-left: 20px;
+ font-size: 20px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main ul li a {
+ border-radius: 10px;
+ text-decoration: none;
+ padding: 6px;
+ font-family: 'Rubik Dirt', cursive;
+ font-style: italic;
+ color: #fff;
+}
+
+main ul li a:hover {
+ background: linear-gradient(rgb(0, 4, 255),rgb(255, 0, 0));
+}
+
+img{
+ border-radius: 15px;
+ transition: transform .2s;
+}
+
+main img[height="280"]{
+ padding: 5px;
+ transition: transform .2s;
+}
+
+img:hover{
+ transform: scale(1.1);
+}
+
+footer{
+    background: linear-gradient(rgb(37, 1, 120),rgb(161, 3, 3));
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    /* height: 200px; */
+    display: flex;
+    justify-content: space-around;
+    
+   }
+   
+    .prout{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    .vomito{
+        text-align: center;
+    }
+   
+    h2{
+      font-family: 'Rubik Dirt', cursive;
+      font-style: italic;
+    }
+   
+    .pipi{
+      font-family: 'Rubik Dirt', cursive;
+      font-style: italic;
+      font-size:medium;
+    }
+   
+    .caca{
+      font-family: 'Rubik Dirt', cursive;
+      font-style: italic;
+      font-size:medium;
+    }
